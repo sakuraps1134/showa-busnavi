@@ -143,7 +143,7 @@ td{
 <div id="map"></div>
 
 <div id="header">
-    祐徳バスナビ
+    昭和バスナビ
 </div>
 
 <div id="filterContainer">
@@ -173,11 +173,11 @@ const FEED_URL =
 
 //車両リスト
 const VEHICLE_CSV =
-    'https://raw.githubusercontent.com/sakuraps1134/showabusnavi/showavehicle.csv';
+    'https://raw.githubusercontent.com/sakuraps1134/showabusnavi/main/showavehicle.csv';
 //停留所リスト
 const STOPS_CSV =
     'https://raw.githubusercontent.com/sakuraps1134/yu-toku-busnavi/main/stops.txt';
-//トリップidリスト(祐徳含まれてたっけ？)
+//トリップidリスト(含まれてたっけ？)
 const TRIP_SCHEDULES_JSON =
     'https://raw.githubusercontent.com/sakuraps1134/yu-toku-busnavi/main/trip_schedules.json';
 //表示アイコンリスト
@@ -206,7 +206,7 @@ let userAccuracyCircle = null;
 // ------------------
 
 const map = L.map('map').setView(
-    [33.1500, 130.1500], // 佐賀市と武雄市の中間付近へ移動
+    [33.3296335, 130.140278], // 佐賀市と武雄市の中間付近へ移動
     11                   // 広域が表示されるようズームアウト
 );
 
